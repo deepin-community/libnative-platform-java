@@ -1,1 +1,8 @@
-.pc/
+*.iml
+*.ipr
+*.iws
+.gradle
+.DS_Store
+/build
+*/build
+/out

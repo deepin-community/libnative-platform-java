@@ -1,3 +1,21 @@
+libnative-platform-java (0.14-6) unstable; urgency=medium
+
+  [ Vladimir Petko ]
+  * d/Makefile: use java_compat_level variable provided by java-common
+    (Closes: #1052566).
+
+  [ Edward Betts ]
+  * Upstream GitHub repo has moved, update URL.
+
+  [ tony mancill ]
+  * Update B-D to libncurses-dev
+  * Add myself to Uploaders (there were no human maintainers)
+  * Set Rules-Requires-Root: no in debian/control
+  * Freshen years in debian/copyright
+  * Bump Standards-Version to 4.6.2
+
+ -- tony mancill <tmancill@debian.org>  Mon, 19 Feb 2024 09:15:43 -0800
+
 libnative-platform-java (0.14-5) unstable; urgency=medium
 
   * Team upload.

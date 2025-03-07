@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Native-platform for Java
-Source: https://github.com/adammurdoch/native-platform.git
+Source: https://github.com/gradle/native-platform.git
 Files-Excluded: *.jar
 
 Files: *
@@ -9,6 +9,7 @@ License: Apache-2.0
 
 Files: debian/*
 Copyright: 2012, Damien Raude-Morvan <drazzib@debian.org>
+           2024, tony mancill <tmancill@debian.org>
 License: Apache-2.0
 
 License: Apache-2.0
