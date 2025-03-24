@@ -5,10 +5,11 @@
 #  Author: Damien Raude-Morvan <drazzib@debian.org>
 #  Adapted for Fedora by: gil cattaneo <puntogil@libero.it>
 include /usr/share/dpkg/architecture.mk
+include /usr/share/java/java_defaults.mk
 
 JAVA_HOME ?= /usr/lib/jvm/default-java
-JAVA_TARGET_VERSION = 1.7
-JAVA_SOURCE_VERSION = 1.7
+JAVA_TARGET_VERSION = $(java_compat_level)
+JAVA_SOURCE_VERSION = $(java_compat_level)
 BUILD_DIR = debian/out
 
 CPPFLAGS += -Isrc/shared/headers \
